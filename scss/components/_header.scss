@@ -7,6 +7,7 @@ header{
         font-weight: nth($weight, 1 );
         font-size: nth($tamanio-letras, 3 );
         width: map-get($iconos, ancho);
+        overflow-x: hidden;
 
     img{
         margin: 10px;
